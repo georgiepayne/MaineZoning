@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.header-container{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+li a:hover{
+  color: rgb(133, 212, 204);
+  transition: all 0.2s;
+}
+
+li{
+  list-style: none;
+  padding: 1.5rem;
+  font-size: max(0.75rem, 1.25vw);
+}
+
+ul{
+  display: flex;
+}
+
+.logo-container{
+  font-size: max(1.5rem, 2.5vw);
+}
+
+.houses-pic img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+h2{
+  text-align: center;
+  font-size: max(1.75rem, 2.25vw);
+  padding-top: 1rem;
+  font-weight: normal;
+}
+
+.about-container{
+  padding: 1rem 0 3rem 0;
+}
+
+.about-info img{
+  width: 50%;
+  height: 50%;
+  float: left;
+  padding: 0 1rem 0.5rem 0;
+}
+
+.about-info{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-par{
+  font-size: max(0.75rem, 1.25vw);
+  text-align: justify;
+}
+
+.history-container{
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 1rem 0 3rem 0;
+}
+
+.history-info{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history-par{
+  font-size: max(0.75rem, 1.25vw);
+  padding-right: 1rem;
+}
+
+.history-container img{
+  width: 40%;
+}
+
+.mission-container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0 3rem 0;
+  font-size: max(0.75rem, 1.25vw)
+}
+
+.mission-container img{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+}
+
+footer p{
+  color: black;
+  text-align: center;
+}
